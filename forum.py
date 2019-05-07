@@ -32,6 +32,7 @@ HTML_WRAP = '''\
     <form method=post action="/post">
        User name: <input type="text" name="username"><br>
        Password: <input type="text" name="passwd">
+       <input type="hidden" name="post_id" value=0>
       <div><textarea id="content" name="content" placeholder="Message"></textarea></div>
       <div><button id="go" type="submit">Post message</button></div>
     </form>
